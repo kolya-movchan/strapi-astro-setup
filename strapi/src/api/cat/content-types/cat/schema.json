@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cats",
+  "info": {
+    "singularName": "cat",
+    "pluralName": "cats",
+    "displayName": "cat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "breed": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Cat from '../components/Cat.astro';
+import { data as cats } from '../api/fetch'
+---
+
+
+<Layout>
+  <main class="p-4 flex flex-col items-center">
+    <ul class="pb-4 flex items-center">
+			{cats && cats.map((cat: Cat) => {
+        const {name, breed, img} = cat.attributes;
+						return (
+				<Cat
+        title={name}
+				body={breed}
+        image={img.data.attributes.formats.thumbnail.url}
+      />
+				
+				)
+			})}
+    </ul>
+  </main>
+</Layout>
