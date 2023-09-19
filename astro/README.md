@@ -7,7 +7,7 @@ With this kit, you'll get up and running quickly with a basic Astro project stru
 
 ## Getting Started 🏁
 
-1. Clone this repository.
+1. Make sure you are in ./astro directoty.
 
 2. Run `npm install` to install dependencies.
 
@@ -30,6 +30,7 @@ Inside of your Astro project, you'll see the following folders and files:
 ```text
 /
 ├── public/
+│   └── screenshots/
 ├── src/
 │   ├── api/
 │   │   └── fetch.ts

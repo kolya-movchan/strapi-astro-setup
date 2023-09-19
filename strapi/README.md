@@ -1,16 +1,18 @@
-# 🚀 Getting started with Strapi
+# Getting started with Strapi
+
+## Introduction 🚀
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
-### `develop`
+## Getting Started 🏁
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+1. Make sure you are in ./strapi directoty.
 
-```
-npm run develop
-# or
-yarn develop
-```
+2. Run `npm install` to install dependencies.
+
+3. Start the development server with `npm run develop`.
+
+4. Open your browser and navigate to `http://localhost:1337`.
 
 ### `start`
 
@@ -30,28 +32,47 @@ Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-
 npm run build
 # or
 yarn build
+
 ```
 
-## ⚙️ Deployment
+## FYI ℹ️
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+Before installing Strapi, the following requirements must be installed on your computer:
 
-## 📚 Learn more
+Node.js: Only Maintenance and LTS versions are supported (v16, v18, and v20).
+Node v18.x is recommended for Strapi v4.3.9 and above
+Node v16.x is recommended for Strapi v4.0.x to v4.3.8.
+Your preferred Node.js package manager:
+npm (v6 and above)
+yarn
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+## 🚀 Project Structure
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+Inside of your Astro project, you'll see the following folders and files:
 
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+```text
+/
+├── .tmp/
+│   └── data.db
+├── .config/
+│   ├── admin.js
+│   ├── api.js
+│   ├── database.js
+│   ├── middlewares.js
+│   └── server.js
+├── database/
+│   └── migrations/
+├── public/
+│   └── uploads/
+├── src/
+│   ├── admin/
+│   │   └── app.example.js
+│   │   └── webpack.config.example.js
+│   ├── api/
+│   │   └── cat/
+│   │        └── content-types
+│   │        └── controllers
+│   │        └── routes
+│   │        └── services
+│   └── extensions/
+```
