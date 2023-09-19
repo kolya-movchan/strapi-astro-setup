@@ -3,7 +3,7 @@
 Welcome to the Strapi&Astro Setup project, where we've combined the powers of Strapi for the backend and Astro for the frontend. This project serves as a setup test task to demonstrate the seamless integration of these technologies. We've created a test cat using Strapi and fetched it using Axios in the Astro frontend. Let's explore this dual-stack setup!
 
 <p align="center">
-  <img src="https://github.com/kolya-movchan/strapi-astro-setup/raw/main/public/screenshots/screenshot.png" alt="project screenshot" style="margin-bottom: 20px;">
+  <img src="https://github.com/kolya-movchan/strapi-astro-setup/raw/main/public/screenshots/Screenshot.png" alt="project screenshot" style="margin-bottom: 20px;">
 </p>
 
 ## Features 🚀
@@ -41,7 +41,7 @@ Welcome to the Strapi&Astro Setup project, where we've combined the powers of St
 1. Navigate to the `frontend` folder.
 2. Install the frontend dependencies with `npm install`.
 3. Start the Astro development server with `npm run dev`.
-4. Open your browser and navigate to `http://localhost:3000` to see the fetched test cat data.
+4. Open your browser and navigate to `http://localhost:4321` to see the fetched test cat data.
 
 ## Contributions and Feedback 🙌
 
