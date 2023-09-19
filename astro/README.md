@@ -1,16 +1,27 @@
 # Astro Starter Kit: Basics
 
-```sh
-npm create astro@latest -- --template basics
-```
+## Introduction 🚀
+The Astro Starter Kit is designed to kickstart your development journey with Astro, an exciting new static site generator (SSG) and dynamic runtime framework. Astro offers the best of both worlds, allowing you to build fast, efficient static sites while providing the flexibility to add dynamic functionality when needed.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+With this kit, you'll get up and running quickly with a basic Astro project structure and essential tools. Whether you're new to Astro or looking to explore its capabilities, this kit provides a solid foundation for your project.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Getting Started 🏁
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+1. Clone this repository.
+
+2. Run `npm install` to install dependencies.
+
+3. Start the development server with `npm run dev`.
+
+4. Open your browser and navigate to `http://localhost:4321`.
+
+## FYI ℹ️
+
+Astro has changed default: port 3000
+In Astro v2.x, Astro ran on port 3000 by default.
+Astro v3.0 changes the default port to 4321. 🚀
+
+Also, make sure to have the Node version >= 18.14.1
 
 ## 🚀 Project Structure
 
@@ -19,14 +30,19 @@ Inside of your Astro project, you'll see the following folders and files:
 ```text
 /
 ├── public/
-│   └── favicon.svg
 ├── src/
+│   ├── api/
+│   │   └── fetch.ts
 │   ├── components/
-│   │   └── Card.astro
+│   │   └── Cat.astro
 │   ├── layouts/
 │   │   └── Layout.astro
 │   └── pages/
-│       └── index.astro
+│   │  └── index.astro
+│   └── styles/
+│   │   └── global.css
+│   └── types/
+│       └── Cat.ts
 └── package.json
 ```
 
@@ -51,4 +67,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check [our documentation](https://docs.astro.build) or jump into [Discord server](https://astro.build/chat).

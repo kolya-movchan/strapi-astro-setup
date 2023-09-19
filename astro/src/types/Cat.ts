@@ -1,4 +1,4 @@
-interface Cat {
+export interface Cat {
   id: number
   attributes: {
     name: string
@@ -12,36 +12,36 @@ interface Cat {
 
 interface Image {
   data: {
-    id: number;
+    id: number
     attributes: {
-      name: string;
-      alternativeText: string | null;
-      caption: string | null;
-      width: number;
-      height: number;
+      name: string
+      alternativeText: string | null
+      caption: string | null
+      width: number
+      height: number
       formats: {
         [key: string]: {
-          ext: string;
-          url: string;
-          hash: string;
-          mime: string;
-          name: string;
-          path: null | string;
-          size: number;
-          width: number;
-          height: number;
-        };
-      };
-      hash: string;
-      ext: string;
-      mime: string;
-      size: number;
-      url: string;
-      previewUrl: null | string;
-      provider: string;
-      provider_metadata: null | string;
-      createdAt: string;
-      updatedAt: string;
-    };
-  };
+          ext: string
+          url: string
+          hash: string
+          mime: string
+          name: string
+          path: null | string
+          size: number
+          width: number
+          height: number
+        }
+      }
+      hash: string
+      ext: string
+      mime: string
+      size: number
+      url: string
+      previewUrl: null | string
+      provider: string
+      provider_metadata: null | string
+      createdAt: string
+      updatedAt: string
+    }
+  }
 }
