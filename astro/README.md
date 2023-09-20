@@ -23,6 +23,9 @@ Astro v3.0 changes the default port to 4321. 🚀
 
 Also, make sure to have the Node version >= 18.14.1
 
+## Troubleshooting 🛠️
+Please, note that if you face some issues with connecting to `http://127.0.0.1:1337` which is the base url for front-end host, then try to change it to `http://localhost:1337` since it may work unexpectedly from different devices and their configurations
+
 ## API 🌐
 The base link to fetch data is `http://localhost:1337/api`
 `cats` is a current endpoint to fetch all cats data from strapi

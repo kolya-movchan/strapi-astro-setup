@@ -1,25 +1,29 @@
 ---
 import Layout from '@layouts/Layout.astro'
 import Cat from '@components/Cat.astro'
-import { data as cats } from '@api/fetch'
 import { type Cat as CatFromAPI } from '../types/Cat'
+import { getCats } from '@api/fetch'
+
+const catsData = await getCats()
 ---
 
 <Layout>
   <main class="p-16 flex flex-col items-center">
     <ul class="pb-4 flex items-center gap-4">
       {
-        cats &&
-          cats.map((cat: CatFromAPI) => {
-            const { name, breed, img } = cat.attributes
-            return (
-              <Cat
-                title={name}
-                body={breed}
-                image={img.data.attributes.formats.thumbnail.url}
-              />
-            )
-          })
+        !catsData
+          ? 'Failed to load Cats'
+          : catsData &&
+            catsData?.data.map((cat: CatFromAPI) => {
+              const { name, breed, img } = cat.attributes
+              return (
+                <Cat
+                  title={name}
+                  body={breed}
+                  image={img.data.attributes.formats.thumbnail.url}
+                />
+              )
+            })
       }
     </ul>
   </main>

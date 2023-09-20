@@ -20,7 +20,6 @@ Welcome to the Strapi&Astro Setup project, where we've combined the powers of St
 
 ### Dependencies
 - **Strapi** (v4.13.6): A versatile headless CMS for managing content and providing APIs.
-- **@strapi/plugin-i18n** (v4.13.6): Internationalization plugin for Strapi.
 - **@strapi/plugin-users-permissions** (v4.13.6): Users and permissions plugin for Strapi.
 - **better-sqlite3** (v8.6.0): A high-performance SQLite database driver for Strapi.
 - **Astro** (v3.1.1): A static site generator for building blazing-fast websites.
