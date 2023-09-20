@@ -51,7 +51,7 @@ Clone this repository
 
 ## Contributions and Feedback 🙌
 
-We welcome contributions and value your feedback! Feel free to contribute to this project or report any issues in the [Issues](https://github.com/klmovchan/strapi-astro-setup/issues) section.
+We welcome contributions and value your feedback! Feel free to contribute to this project or report any issues in the [Issues](https://github.com/kolya-movchan/strapi-astro-setup/issues) section.
 
 Let's continue exploring the possibilities of Strapi and Astro together! 🚀
 
