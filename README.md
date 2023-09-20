@@ -3,6 +3,10 @@
 Welcome to the Strapi&Astro Setup project, where we've combined the powers of Strapi for the backend and Astro for the frontend. This project serves as a setup test task to demonstrate the seamless integration of these technologies. We've created a test cat using Strapi and fetched it using Axios in the Astro frontend. Let's explore this dual-stack setup!
 
 <p align="center">
+  <img src="https://github.com/kolya-movchan/strapi-astro-setup/raw/main/astro/public/screenshots/strapi.png" alt="project screenshot" style="margin-bottom: 20px;">
+</p>
+
+<p align="center">
   <img src="https://github.com/kolya-movchan/strapi-astro-setup/raw/main/astro/public/screenshots/Screenshot.png" alt="project screenshot" style="margin-bottom: 20px;">
 </p>
 
