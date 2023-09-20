@@ -37,6 +37,17 @@ yarn build
 
 ```
 
+## Strapi Workflow
+After log in or registration to the Strapi Dashboard of the current project, first of all please set up access for your Strapi user since currently it is not shared within the users.
+
+1. Navigate to `Settings`
+2. Find `USERS & PERMISSIONS PLUGIN` section and choose Roles
+3. Click on edit marker on `Public` role
+4. Locate `Permissions` section for `Cat` collection and make sure to select all so you have all access to this data on fron-end.
+5. Get back to the main menu and navigate to `Content Manager`
+6. Select `cat` from `COLLECTION TYPES` and click on `Create an entry`
+7. Fill in 3 fields with `name` and `breed` text of the instance and drag&drop or paste link for the cat `image`.
+
 ## FYI ℹ️
 
 Before installing Strapi, the following requirements must be installed on your computer:
