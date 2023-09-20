@@ -23,6 +23,11 @@ Astro v3.0 changes the default port to 4321. 🚀
 
 Also, make sure to have the Node version >= 18.14.1
 
+## API 🌐
+The base link to fetch data is `http://localhost:1337/api`
+`cats` is a current endpoint to fetch all cats data from strapi
+`populate=%2A` parameter gives access to receive image object all along with the main request to have access to cats images
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:

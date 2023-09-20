@@ -31,14 +31,16 @@ Welcome to the Strapi&Astro Setup project, where we've combined the powers of St
 
 ## Getting Started 🏁
 
+Clone this repository
+
 ### Strapi (Backend)
-1. Navigate to the `backend` folder.
+1. Navigate to the `strapi` folder.
 2. Run `npm install` to install the backend dependencies.
 3. Start the Strapi server with `npm run develop`.
 4. Access the Strapi admin panel via `http://localhost:1337` and create your test cat.
 
 ### Astro (Frontend)
-1. Navigate to the `frontend` folder.
+1. Navigate to the `astro` folder.
 2. Install the frontend dependencies with `npm install`.
 3. Start the Astro development server with `npm run dev`.
 4. Open your browser and navigate to `http://localhost:4321` to see the fetched test cat data.

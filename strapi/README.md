@@ -6,13 +6,15 @@ Strapi comes with a full featured [Command Line Interface](https://docs.strapi.i
 
 ## Getting Started 🏁
 
-1. Make sure you are in ./strapi directoty.
+1. Run `cd strapi` to navigate to the backend folder.
 
 2. Run `npm install` to install dependencies.
 
-3. Start the development server with `npm run develop`.
+3. Make sure to fill in the `.env` file with the data from .env.example and fill in all `tobemodified` fields with your personal data.
 
-4. Open your browser and navigate to `http://localhost:1337`.
+4. Start the development server with `npm run develop`.
+
+5. Open your browser and navigate to `http://localhost:1337`.
 
 ### `start`
 
