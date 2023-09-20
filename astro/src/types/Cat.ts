@@ -1,5 +1,4 @@
 export interface Cat {
-  // data: 
   id: number
   attributes: {
     name: string
@@ -48,5 +47,5 @@ interface Image {
 }
 
 export interface APIresponse {
-  data: Cat[];
+  data: Cat[]
 }
